@@ -15,11 +15,7 @@ video link here--->
 
 - Python 3.7 and more
 - Important Libraries: sklearn, pandas, numpy, matplotlib & seaborn
-- Front-end: HTML, CSS 
-- Back-end: Flask framework
-- IDE: Jupyter Notebook, Pycharm & VSCode
-- Database: SQLite
-- Deployment: Locally
+
 
 # How to run this app 
 
