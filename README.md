@@ -1,4 +1,5 @@
-## Thyroid Disease Detection
+##Fitbit calories tracker
+
 
 #### Problem Statement:
     
@@ -33,39 +34,12 @@ Code is written in Python 3.7 and more. If you don't have python installed on yo
 - Install the packages     
 ```pip install -r requirements.txt ```
 
-- Run the app     
-```python webapp\project_library_layer\initializer\setup_configuration.py ```
+
 
 
 # Workflow
 
-## Data Collection
 
-Thyroid Disease Data Set from UCI Machine Learning Repository.
-
-Link:https://archive.ics.uci.edu/ml/datasets/thyroid+disease
-
-## Data Pre-processing
-
-   - Drop columns not useful for training the model. Such columns were selected while doing the EDA.
-   - Replace the invalid values with numpy “nan” so we can use imputer on such values.
-   - Encode the categorical values
-   - Check for null values in the columns. If present, impute the null values using the KNN imputer.
-   - After imputing, handle the imbalanced dataset by using RandomOverSampler
-
-## Model Creation and Evaluation
-
-- Various classification algorithms like Random Forest, XGBoost, KNN etc tested.
-- Random Forest, XGBoost and KNN were all performed well. XGBoost, Random Forest was chosen for the final model training and testing.
-- Hyper parameter tuning was performed using RandomizedSearchCV
-- Model performance evaluated based on accuracy, confusion matrix, classification report.
-
-
-## Database Connection
-SQLite database used for this project.
-
-## Model Deployment
-The final model is deployed locally.
 
 ## Batch File Prediction User Interface
 #### Login Page
